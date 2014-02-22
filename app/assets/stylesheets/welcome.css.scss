@@ -1,3 +1,33 @@
-// Place all the styles related to the welcome controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
+body {
+    background-color:#000000;
+    color:#ffffff;
+}
+#myFirstForm {
+    color:#ffffff;
+    font-family:"Trebuchet MS", Arial, sans-serif;
+}
+#seatingchart {
+    position:relative;
+    left:75px;
+    top:50px;
+    width:75%;
+    font-family:"Trebuchet MS", Arial, sans-serif;
+    border-collapse:collapse;
+}
+#seatingchart td {
+    border:1px solid #ffffff;
+    padding:5px;
+    text-align:center;
+    color:#ffffff;
+    background-color:#2F4F4F;
+}
+
+#rowcol {
+    position:relative;
+    left: 50px;
+}
+.shownames {
+    font-family:"Trebuchet MS", Arial, sans-serif;
+    color:#FF4500;
+    font-weight:bold;
+}
